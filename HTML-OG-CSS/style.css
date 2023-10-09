@@ -128,8 +128,18 @@ footer nav ul {
 footer nav ul li a{
     padding: 0.5rem;
 }
+#social-icons {
+padding: 0;
+margin: 1rem 0;
+align-content: baseline;
+}
 
 #social-icons li{
 display: inline-block;
-
+background-color: #000;
+color: #efefef;
+width: 60px;
+height: 60px;
+padding: 1rem;
+border-radius: 50%;
 }
