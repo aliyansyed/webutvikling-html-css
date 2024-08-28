@@ -1,11 +1,22 @@
+#home{
+    text-decoration: none;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
 header {
+    text-decoration: none;
+    list-style: none;
+    color: white;
     font-size: 1rem;
+    background-color: blue;
+}
+nav {
+    text-decoration: none;
 }
 header nav{
     display: flex;
+    text-decoration: none;
 }
 #logo {
     text-decoration: none;
