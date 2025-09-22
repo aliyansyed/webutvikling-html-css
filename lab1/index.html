@@ -3,87 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FREEEEEEE BRØDREEE</title>
+     <link rel="stylesheet" type="text/css" href="style.css">
+    <title>HTML5</title>
 </head>
 <body>
-    <header>
+    <header id="global-header">
+        <a href="index.html" id="mainlogo">Logo</a>
         <nav>
-            <span>
-                <a href="index.html">Logo</a>
-            </span>
             <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="nettside.html">nettside mal</a></li>
-                <li><a href="#">ovelser</a></li>
-                <li><a href="#footer">kontakt oss</a></li>
+                <li><a href="index.html">Hjem</a></li>
+                <li><a href="mal.html">Nettside mal</a></li>
+                <li><a href="ovelse.html">Labøvelse</a></li>
+                <li><a href="#contact">Kontakt oss</a></li>
             </ul>
         </nav>
     </header>
-
     <main>
-     <section>
-      <article>
-        <h2>Kontakt oss</h2>
-        <p>Har du spørsmål, bruk skjemaet i bunnen.</p>
-      </article>
-      <article>
-        <h2>Studieplan</h2>
-        <p>Her kommer info om studieplan.</p>
-      </article>
-      <article>
-        <h2>Nyheter</h2>
-        <p>Her kan du legge inn siste nytt.</p>
-      </article>
-     </section>
-
+        <article>
+            <h3>Labøvelse</h3>
+        </article>
+        <article>
+            <h3>Kontakt oss</h3>
+        </article>
+        <article>
+            <h3>Mal</h3>
+        </article>
     </main>
-
     <aside>
         <section>
-      <h2>Semantisk HTML</h2>
-      <ul>
-        <li><a href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html">MDN. Semantics in HTML</a></li>
-        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">MDN. HTML elementer</a></li>
-        <li><a href="https://html.spec.whatwg.org/multipage/sections.html">WHATWG. Sections</a></li>
-        <li><a href="https://www.w3.org/TR/html52/sections.html">W3C. Sections and outlines</a></li>
-        <li><a href="https://web.dev/learn/html/semantic-html/">web.dev. Semantic HTML</a></li>
-      </ul>
-    </section>
-    <section>
-      <h2>Søk HTML5</h2>
-      <p><a href="https://www.google.com/search?q=HTML5">Google søkeresultater om HTML5</a></p>
-    </section>
+            <h4>Semantisk HTML</h4>
+            <ul>
+                <li><a href="https://web.dev/learn/html/semantic-html">web.dev - Semantic HTML</a></li>
+                <li><a href="https://www.w3schools.com/html/html5_semantic_elements.asp">W3 schools - HTML Semantic Elements</a></li>
+                <li><a href="https://www.semrush.com/blog/semantic-html5-guide/">Semrush - What Is Semantic HTML?</a></li>
+                <li><a href="https://www.codecademy.com/resources/blog/semantic-html">Codecademy - What is Semantic HTML & Why Is It Important for Accessibility?</a></li>
+                <li><a href="https://www.geeksforgeeks.org/html/html5-semantics/">Geeks for Geeks - HTML5 Semantics</a></li>
+            </ul>
+        </section>
+        <section>
+            <h4>Oversikt over SERP søk fra Google om semantisk HTML</h4>
+            <a class="google-btn" href="https://www.google.com/search?q=semantic+html&client=firefox-b-d&sca_esv=5b71cfa89013eb9f&ei=c8THaK6qKf_T9u8P55angQ8&oq=sematic+html&gs_lp=Egxnd3Mtd2l6LXNlcnAiDHNlbWF0aWMgaHRtbCoCCAAyBxAAGIAEGAoyBxAAGIAEGAoyBxAAGIAEGAoyBxAAGIAEGAoyBxAAGIAEGAoyBhAAGBYYHjIFEAAY7wUyBRAAGO8FMggQABiABBiiBEinPlDZCFjwOHAMeAGQAQCYAWSgAasKqgEEMTUuMbgBA8gBAPgBAZgCHKACzguoAgrCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICDhAAGLADGOQCGNYE2AEBwgIZEC4YgAQYsAMY0QMYQxjHARjIAxiKBdgBAcICFhAuGIAEGLADGEMY1AIYyAMYigXYAQHCAggQABiABBixA8ICERAuGIAEGLEDGNEDGIMBGMcBwgILEAAYgAQYsQMYgwHCAg4QLhiABBixAxiDARiKBcICBRAuGIAEwgIOEAAYgAQYsQMYgwEYigXCAgsQLhiABBixAxiDAcICDhAuGIAEGLEDGNEDGMcBwgILEC4YgAQYxwEYrwHCAgUQABiABMICCBAuGIAEGNQCwgILEC4YgAQY0QMYxwHCAhMQABiABBhDGLQCGIoFGOoC2AECwgIZEC4YgAQY0QMYQxi0AhjHARiKBRjqAtgBAsICChAAGIAEGEMYigXCAhAQLhiABBjRAxhDGMcBGIoFwgIEEAAYA8ICDRAuGIAEGLEDGEMYigXCAggQLhiABBixA8ICHxAuGIAEGNEDGEMYxwEYigUYlwUY3AQY3gQY4ATYAQHCAhQQLhiABBiXBRjcBBjeBBjfBNgBAcICBxAuGIAEGArCAggQABgWGAoYHpgDBvEFwsYY0V0jJ6-IBgGQBhK6BgYIARABGAm6BgQIAhgHkgcEMjcuMaAHiqkBsgcEMTUuMbgHjwvCBwgwLjEuMjUuMsgHhgE&sclient=gws-wiz-serp">HTML SERP</a>
+        </section>
     </aside>
+    <footer>
+        <ul>
+            <li>
+                Nora Nordmann
+            </li>
+            <li>
+                nora.nordman@hiof.no
+            </li>
+        </ul>
+        <form id="contact">
+            <label>
+                Navn:
+                <input type="text" placeholder="nora..." required>
+            </label>
+            <label>
+                E-post:
+                <input type="email" placeholder="nora.nordman@hiof.no" required>
+            </label>
+            <label>
+                Emne:
+                <input type="text" placeholder="Spm om HTML?">
+            </label>
+            <label>
+                Melding:
+                <textarea>
 
-    <footer id="footer">
-        <address>
-      <p>Navn: Aliyan Syed</p>
-      <p>E-post: <a href="mailto:din.epost@example.com">aliyansyed10@gmail.com</a></p>
-    </address>
-
-    <section id="kontakt">
-      <h2>Kontaktskjema</h2>
-      <form action="#" method="post">
-        <p>
-          <label for="navn">Navn:</label>
-          <input id="navn" name="navn" type="text" required>
-        </p>
-        <p>
-          <label for="emne">Emne:</label>
-          <input id="emne" name="emne" type="text" required>
-        </p>
-        <p>
-          <label for="epost">E-post:</label>
-          <input id="epost" name="epost" type="email" required>
-        </p>
-        <p>
-          <label for="melding">Melding:</label>
-          <textarea id="melding" name="melding" rows="5" required></textarea>
-        </p>
-        <p><button type="submit">Send</button></p>
-      </form>
-    </section>
+                </textarea>
+            </label>
+        </form>
     </footer>
-    
 </body>
 </html>
